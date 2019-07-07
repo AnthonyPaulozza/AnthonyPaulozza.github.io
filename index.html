@@ -3,28 +3,26 @@
   <head>
     <title>Anthony Paulozza</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="topnav.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scripts.js"></script>
   </head>
 
   <body>
-      <div class="wrapper">
-        
-        <div class="left">
-          <img class="profile-picture" src="img/profile.jpg" width="200"/>
-          <h1 class="name">Anthony Paulozza</h1>
-          <h4 class="subtitle">Software Engineer</h4>
+      <div class="topnav" id="myTopnav">
+          <a href="#home" class="active">Anthony Paulozza</a>          
+          <a href="#contact" class="top-nav-button">Contact</a>  
+          <a href="#about" class="top-nav-button">About</a>        
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
         </div>
-        
-        <div class="right">
-          <p class="bio">
-            Computer Science student, web developer, blah blah blah.
-            Thanks for visiting my website.
-          </p>
-          <ul class="social-links">
-            <li><a href="www.linkedin.com/in/anthony-paulozza-14a04017">Linkedin</a></li>
-          </ul>
+
+        <div id="home" class="home-wrapper">    
+           
         </div>
-        
-      </div>
-    </body>
+  </body>
+
+
 </html>
