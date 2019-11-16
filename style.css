@@ -30,7 +30,34 @@ html, body {
     top: 50%;
     left: 70%;
     transform: translate(-50%, -50%);
-  }
+}
+
+.about-wrapper {
+  padding-top: 20px;
+}
+
+.about-breif{
+  text-align: center;
+  color: #1414f4
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 5px;
+}
+
+.row {
+  margin: auto;
+  width: 75%;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
   /* Add a black background color to the top navigation */
 .topnav {
