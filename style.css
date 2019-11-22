@@ -32,28 +32,32 @@ html, body {
     transform: translate(-50%, -50%);
 }
 
-.about-wrapper {
-  padding-top: 20px;
-}
 
 .about-breif{
   text-align: center;
-  color: #1414f4
+  color: #3b3bbc;
+  padding-bottom: 10px;
 }
 
-.column {
+.about-column-1 {
   float: left;
   width: 40%;
   padding: 5px;
 }
 
-.row {
+.about-column-2 {
+  float: left;
+  width: 55%;
+  padding: 5px;
+}
+
+.about-row {
   margin: auto;
-  width: 75%;
+  width: 90%;
 }
 
 /* Clear floats after image containers */
-.row::after {
+.about-row::after {
   content: "";
   clear: both;
   display: table;
@@ -95,6 +99,10 @@ html, body {
 
 .topnav a.top-nav-button{
     float: right;
+}
+
+.caption {
+  margin: 0;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
