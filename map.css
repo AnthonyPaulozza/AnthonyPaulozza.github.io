@@ -1,0 +1,24 @@
+#world-svg-content{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  path {
+    fill: none;
+    stroke: #A9A9A9;
+    cursor: default;
+  }
+
+  .map-visited{
+    fill: #002868 !important;
+  }
+
+  .map-visited:hover{
+    stroke-width:2px;
+    stroke-linejoin: round;
+    cursor: pointer;
+    fill: #034fc9 !important;
+  }
+
